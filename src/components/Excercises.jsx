@@ -5,7 +5,7 @@ export default function Excercises({ muscle, Close, addToPlan, plan }) {
         <div className="flex flex-col bg-white w-80 p-6 rounded-lg shadow">
           <header className="flex justify-between items-center">
             <h1>{`${muscle.name} excercises`}</h1>
-            <h1 onClick={() => Close()} className="text-right">
+            <h1 onClick={() => Close()} className="text-right cursor-pointer">
               X
             </h1>
           </header>
